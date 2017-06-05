@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/top_vw">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:checked="true"
+            android:title="Home" />
+    </group>
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_post"
+            android:icon="@drawable/ic_insert_comment_black_24dp"
+            android:title="Post Report" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_send_black_24dp"
+            android:title="Send Memo" />
+        <item
+            android:id="@+id/nav_received"
+            android:icon="@drawable/ic_local_post_office_black_24dp"
+            android:title="Received Memo" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Profile" />
+
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Logout"/>
+    </group>
+</menu>

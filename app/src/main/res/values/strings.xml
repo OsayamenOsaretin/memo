@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">MemoApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_main">Aiivon</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Sign in</string>
+    <string name="btn_link_to_register">Not a member? Sign up here</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="hint_name">Username</string>
+    <string name="btn_register">Sign up</string>
+    <string name="btn_link_to_login">Already a member? Sign in here</string>
+    <string name="no_recent">No recent activity</string>
+    <string name="title_activity_send_memo">Send Memo</string>
+    <string name="title_activity_send_report">Send Report</string>
+    <string name="action_send">Send</string>
+    <string name="write_here">Write here...</string>
+    <string name="subject">Subject</string>
+    <string name="to">To:</string>
+    <string name="no_authorization_for_memo">Sorry, you are not authorized to send this Memo</string>
+
+    <array name="sender_Items">
+        <item>Department</item>
+        <item>HOD Tech</item>
+        <item>HOD Marketing</item>
+        <item>HOD Projects</item>
+        <item>HOD Accounts</item>
+        <item>HOD Interns</item>
+        <item>HOD Admin</item>
+        <item>Execs</item>
+    </array>
+
+    <array name="send_option">
+        <item>All</item>
+        <item>Tech</item>
+        <item>Marketing</item>
+        <item>Admin</item>
+        <item>Projects</item>
+        <item>Accounts</item>
+        <item>Interns</item>
+        <item>Executives</item>
+    </array>
+
+</resources>
